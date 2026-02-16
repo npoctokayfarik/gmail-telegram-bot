@@ -1,0 +1,16 @@
+{
+  "name": "gmail-telegram-bot",
+  "version": "1.0.0",
+  "description": "Forward Gmail to Telegram",
+  "type": "module",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node web.mjs",
+    "worker": "node index.mjs"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "googleapis": "^171.4.0",
+    "node-telegram-bot-api": "^0.67.0"
+  }
+}
